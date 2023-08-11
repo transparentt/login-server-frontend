@@ -11,12 +11,14 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import SignIn from "./SignIn.tsx";
 import Secret from "./Secret.tsx";
+import SignUp from "./SignUp.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
+  { path: "/register", element: <SignUp></SignUp> },
   { path: "/login", element: <SignIn></SignIn> },
   { path: "/secret", element: <Secret></Secret> },
 ]);

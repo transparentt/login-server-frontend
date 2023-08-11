@@ -7,6 +7,11 @@ function App() {
       <div>
         <ul>
           <li>
+            <Link href="/register" underline="hover">
+              Sign Up
+            </Link>
+          </li>
+          <li>
             <Link href="/login" underline="hover">
               Login
             </Link>
