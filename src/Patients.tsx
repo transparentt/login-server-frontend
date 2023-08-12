@@ -14,7 +14,7 @@ const Patients = () => {
   if (isError) return "エラーが起こりました...";
   return (
     <>
-      <h4>患者一覧</h4>
+      <h4>Patient List</h4>
     </>
   );
 };

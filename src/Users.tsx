@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
-import { Link } from "@mui/material";
+import { Box, Link } from "@mui/material";
 
 const Users = () => {
   const { isLoading, isError, data } = useQuery(["secret"], {
@@ -15,7 +15,7 @@ const Users = () => {
   if (isError) return "エラーが起こりました...";
   return (
     <>
-      <h4>ユーザー一覧</h4>
+      <b>User List</b>
     </>
   );
 };

@@ -14,7 +14,7 @@ const Games = () => {
   if (isError) return "エラーが起こりました...";
   return (
     <>
-      <h4>ゲーム一覧</h4>
+      <h4>Game List</h4>
     </>
   );
 };

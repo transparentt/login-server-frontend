@@ -1,5 +1,5 @@
 import Grid from "@mui/material/Unstable_Grid2";
-import { Link } from "@mui/material";
+import { Link, textFieldClasses } from "@mui/material";
 
 import LoginIcon from "@mui/icons-material/Login";
 import HowToRegIcon from "@mui/icons-material/HowToReg";
@@ -7,15 +7,15 @@ import HowToRegIcon from "@mui/icons-material/HowToReg";
 const Header = () => {
   return (
     <>
-      <Grid xs={11.3}>
-        <h2>管理画面</h2>
+      <Grid xs={11.3} sx={{ bgcolor: "#232946", color: "white" }}>
+        <h2>Control Panel</h2>
       </Grid>
-      <Grid xs={0.7}>
+      <Grid xs={0.7} sx={{ bgcolor: "#232946" }}>
         <Link href="/register" underline="hover">
-          <HowToRegIcon />
+          <HowToRegIcon sx={{ color: "white" }} />
         </Link>
         <Link href="/login" underline="hover">
-          <LoginIcon />
+          <LoginIcon sx={{ color: "white" }} />
         </Link>
       </Grid>
     </>

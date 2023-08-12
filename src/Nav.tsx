@@ -15,68 +15,73 @@ import HomeIcon from "@mui/icons-material/Home";
 
 const Nav = () => {
   return (
-    <Box sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
+    <Box
+      sx={{
+        width: "60%",
+        maxWidth: 360,
+      }}
+    >
       <nav aria-label="main">
         <List>
           <ListItem disablePadding>
             <ListItemButton href="/users">
               <ListItemIcon>
-                <PersonIcon />
+                <PersonIcon sx={{ color: "white" }} />
               </ListItemIcon>
-              <ListItemText primary="ユーザー一覧" />
+              <ListItemText primary="Users" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton href="/organizations">
               <ListItemIcon>
-                <BusinessIcon />
+                <BusinessIcon sx={{ color: "white" }} />
               </ListItemIcon>
-              <ListItemText primary="組織一覧" />
+              <ListItemText primary="Organizations" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton href="/patients">
               <ListItemIcon>
-                <VaccinesIcon />
+                <VaccinesIcon sx={{ color: "white" }} />
               </ListItemIcon>
-              <ListItemText primary="患者一覧" />
+              <ListItemText primary="Patients" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton href="/games">
               <ListItemIcon>
-                <SportsEsportsIcon />
+                <SportsEsportsIcon sx={{ color: "white" }} />
               </ListItemIcon>
-              <ListItemText primary="ゲーム一覧" />
+              <ListItemText primary="Games" />
             </ListItemButton>
           </ListItem>
         </List>
       </nav>
-      <Divider />
+      <Divider sx={{ borderColor: "white" }} />
       <nav aria-label="sub">
         <List>
           <ListItem disablePadding>
             <ListItemButton href="/help">
               <ListItemIcon>
-                <HelpIcon />
+                <HelpIcon sx={{ color: "white" }} />
               </ListItemIcon>
-              <ListItemText primary="ヘルプ" />
+              <ListItemText primary="Help" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <LogoutIcon />
+                <LogoutIcon sx={{ color: "white" }} />
               </ListItemIcon>
-              <ListItemText primary="ログアウト" />
+              <ListItemText primary="Logout" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton href="/">
               <ListItemIcon>
-                <HomeIcon />
+                <HomeIcon sx={{ color: "white" }} />
               </ListItemIcon>
-              <ListItemText primary="ホーム" />
+              <ListItemText primary="Home" />
             </ListItemButton>
           </ListItem>
         </List>

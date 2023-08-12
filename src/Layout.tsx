@@ -9,14 +9,14 @@ type Props = { children: ReactNode };
 
 const Layout = ({ children }: Props) => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={0}>
       <Header />
 
-      <Grid xs={3}>
+      <Grid xs={2.5} sx={{ bgcolor: "#232946", color: "#b8c1ec" }}>
         <Nav />
       </Grid>
 
-      <Grid xs={9}>
+      <Grid xs={9.5} sx={{ bgcolor: "#232946", color: "#b8c1ec" }}>
         <main>{children}</main>
       </Grid>
 

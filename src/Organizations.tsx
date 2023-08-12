@@ -14,7 +14,7 @@ const Organizations = () => {
   if (isError) return "エラーが起こりました...";
   return (
     <>
-      <h4>組織一覧</h4>
+      <h4>Organization List</h4>
     </>
   );
 };
