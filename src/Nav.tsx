@@ -56,7 +56,7 @@ const Nav = () => {
       <nav aria-label="sub">
         <List>
           <ListItem disablePadding>
-            <ListItemButton>
+            <ListItemButton href="/help">
               <ListItemIcon>
                 <HelpIcon />
               </ListItemIcon>

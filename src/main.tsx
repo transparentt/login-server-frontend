@@ -5,7 +5,6 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import Container from "@mui/material/Container";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
@@ -16,6 +15,7 @@ import Layout from "./Layout.tsx";
 import Organizations from "./Organizations.tsx";
 import Patients from "./Patients.tsx";
 import Games from "./Games.tsx";
+import Help from "./Help.tsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +28,7 @@ const router = createBrowserRouter([
   { path: "/organizations", element: <Organizations /> },
   { path: "/patients", element: <Patients /> },
   { path: "/games", element: <Games /> },
+  { path: "/help", element: <Help /> },
 ]);
 const queryClient = new QueryClient();
 
