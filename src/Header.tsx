@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <Grid xs={11.3}>
-        <h2>Control Panel</h2>
+        <h2>管理画面</h2>
       </Grid>
       <Grid xs={0.7}>
         <Link href="/register" underline="hover">

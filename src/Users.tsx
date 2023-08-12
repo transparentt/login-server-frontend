@@ -10,12 +10,12 @@ const Users = () => {
       });
     },
   });
-  if (isLoading) return "Loading...";
+  if (isLoading) return "読み込み中...";
 
-  if (isError) return "An error has occurred...";
+  if (isError) return "エラーが起こりました...";
   return (
     <>
-      <h4>Users</h4>
+      <h4>ユーザー一覧</h4>
     </>
   );
 };

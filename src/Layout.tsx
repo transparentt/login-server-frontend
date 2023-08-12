@@ -12,11 +12,11 @@ const Layout = ({ children }: Props) => {
     <Grid container spacing={2}>
       <Header />
 
-      <Grid xs={2}>
+      <Grid xs={3}>
         <Nav />
       </Grid>
 
-      <Grid xs={10}>
+      <Grid xs={9}>
         <main>{children}</main>
       </Grid>
 

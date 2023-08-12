@@ -23,7 +23,7 @@ const Nav = () => {
               <ListItemIcon>
                 <PersonIcon />
               </ListItemIcon>
-              <ListItemText primary="Users" />
+              <ListItemText primary="ユーザー一覧" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
@@ -31,7 +31,7 @@ const Nav = () => {
               <ListItemIcon>
                 <BusinessIcon />
               </ListItemIcon>
-              <ListItemText primary="Organizations" />
+              <ListItemText primary="組織一覧" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
@@ -39,7 +39,7 @@ const Nav = () => {
               <ListItemIcon>
                 <VaccinesIcon />
               </ListItemIcon>
-              <ListItemText primary="Patients" />
+              <ListItemText primary="患者一覧" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
@@ -47,7 +47,7 @@ const Nav = () => {
               <ListItemIcon>
                 <SportsEsportsIcon />
               </ListItemIcon>
-              <ListItemText primary="Games" />
+              <ListItemText primary="ゲーム一覧" />
             </ListItemButton>
           </ListItem>
         </List>
@@ -60,7 +60,7 @@ const Nav = () => {
               <ListItemIcon>
                 <HelpIcon />
               </ListItemIcon>
-              <ListItemText primary="Help" />
+              <ListItemText primary="ヘルプ" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
@@ -68,7 +68,7 @@ const Nav = () => {
               <ListItemIcon>
                 <LogoutIcon />
               </ListItemIcon>
-              <ListItemText primary="Logout" />
+              <ListItemText primary="ログアウト" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
@@ -76,7 +76,7 @@ const Nav = () => {
               <ListItemIcon>
                 <HomeIcon />
               </ListItemIcon>
-              <ListItemText primary="Home" />
+              <ListItemText primary="ホーム" />
             </ListItemButton>
           </ListItem>
         </List>

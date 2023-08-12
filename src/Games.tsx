@@ -9,12 +9,12 @@ const Games = () => {
       });
     },
   });
-  if (isLoading) return "Loading...";
+  if (isLoading) return "読み込み中...";
 
-  if (isError) return "An error has occurred...";
+  if (isError) return "エラーが起こりました...";
   return (
     <>
-      <h4>Games</h4>
+      <h4>ゲーム一覧</h4>
     </>
   );
 };

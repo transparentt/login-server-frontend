@@ -9,12 +9,12 @@ const Organizations = () => {
       });
     },
   });
-  if (isLoading) return "Loading...";
+  if (isLoading) return "読み込み中...";
 
-  if (isError) return "An error has occurred...";
+  if (isError) return "エラーが起こりました...";
   return (
     <>
-      <h4>Organizations</h4>
+      <h4>組織一覧</h4>
     </>
   );
 };
