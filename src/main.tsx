@@ -10,26 +10,33 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import SignIn from "./SignIn.tsx";
-import Secret from "./Secret.tsx";
+import Users from "./Users.tsx";
 import SignUp from "./SignUp.tsx";
+import Layout from "./Layout.tsx";
+import Organizations from "./Organizations.tsx";
+import Patients from "./Patients.tsx";
+import Games from "./Games.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
-  { path: "/register", element: <SignUp></SignUp> },
-  { path: "/login", element: <SignIn></SignIn> },
-  { path: "/secret", element: <Secret></Secret> },
+  { path: "/register", element: <SignUp /> },
+  { path: "/login", element: <SignIn /> },
+  { path: "/users", element: <Users /> },
+  { path: "/organizations", element: <Organizations /> },
+  { path: "/patients", element: <Patients /> },
+  { path: "/games", element: <Games /> },
 ]);
 const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      <Container maxWidth="sm">
+      <Layout>
         <RouterProvider router={router} />
-      </Container>
+      </Layout>
     </QueryClientProvider>
   </React.StrictMode>
 );

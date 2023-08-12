@@ -32,7 +32,7 @@ function SignUp() {
   return (
     <>
       <div>
-        <h2>Sign Up</h2>
+        <h4>Register</h4>
       </div>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -40,7 +40,7 @@ function SignUp() {
             <TextField
               required
               id="outlined-required"
-              label="IDを入力する"
+              label="ID"
               {...register("username")}
             />
           </div>
@@ -48,7 +48,7 @@ function SignUp() {
             <TextField
               required
               id="outlined-password-input"
-              label="Passwordを入力する"
+              label="Password"
               type="password"
               autoComplete="current-password"
               margin="normal"
@@ -61,14 +61,6 @@ function SignUp() {
             </Button>
           </div>
         </form>
-      </div>
-      <div>
-        <p></p>
-      </div>
-      <div>
-        <Link href="/" underline="hover">
-          Top
-        </Link>
       </div>
     </>
   );
