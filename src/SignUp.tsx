@@ -32,7 +32,7 @@ function SignUp() {
   return (
     <>
       <div>
-        <h4>Register</h4>
+        <h4>会員登録</h4>
       </div>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -57,7 +57,7 @@ function SignUp() {
           </div>
           <div>
             <Button variant="contained" type="submit">
-              Register
+              登録
             </Button>
           </div>
         </form>

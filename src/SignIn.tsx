@@ -32,7 +32,7 @@ function SignIn() {
   return (
     <>
       <div>
-        <h4>Login</h4>
+        <h4>ログイン</h4>
       </div>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -57,7 +57,7 @@ function SignIn() {
           </div>
           <div>
             <Button variant="contained" type="submit">
-              Login
+              ログイン
             </Button>
           </div>
         </form>
